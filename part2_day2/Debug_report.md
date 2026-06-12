@@ -52,7 +52,7 @@ Trace Viewer
 Always validate locators before implementing actions.
 
 ## Output
-![Locator](/output/locator%20not%20found%20trace.png)
+![Locator](/part2_day2/output/locator%20not%20found%20trace.png)
 ---
 
 # Failure Category 2 – Assertion Failure
@@ -98,7 +98,7 @@ HTML Report
 Assertions should reflect actual business requirements.
 
 ## Output
-![Assertion](/output/assertion%20trace.png)
+![Assertion](/part2_day2/output/assertion%20trace.png)
 
 ---
 
@@ -142,7 +142,7 @@ Trace Viewer
 Validate URLs against actual navigation flow.
 
 ## Output
-![URL](/output/URL%20mismatch%20trace.png)
+![URL](/part2_day2/output/URL%20mismatch%20trace.png)
 
 ---
 
@@ -187,7 +187,7 @@ Inspector
 Ensure locator resolves before visibility validation.
 
 ## Output
-![elementVisibilty](/output/Element%20visibility%20failure%20trace.png)
+![elementVisibilty](/part2_day2/output/Element%20visibility%20failure%20trace.png)
 ---
 
 # Failure Category 5 – Element Count Failure
@@ -233,7 +233,7 @@ HTML Report
 Count assertions should be based on application behavior.
 
 ## Output
-![elementCount](/output/Element%20Count%20failure%20trace.png)
+![elementCount](/part2_day2/output/Element%20Count%20failure%20trace.png)
 ---
 
 # Failure Category 6 – Text Validation Failure
@@ -278,7 +278,7 @@ Screenshot + HTML Report
 Text validations should use correct expected values.
 
 ## Output
-![textValidation](/output/Text%20Validation%20failure.png)
+![textValidation](/part2_day2/output/Text%20Validation%20failure.png)
 ---
 
 # Failure Category 7 – Network Failure
@@ -323,7 +323,7 @@ Trace Viewer
 Applications should handle API failures gracefully.
 
 ## Output
-![network](/output/Network%20failure%20trace.png)
+![network](/part2_day2/output/Network%20failure%20trace.png)
 ---
 
 # Failure Category 8 – Missing Element Interaction
@@ -359,7 +359,7 @@ Inspector
 Validate existence before interaction.
 
 ## Output
-![missingElement](/output/Missing%20element%20failure%20trace.png)
+![missingElement](/part2_day2/output/Missing%20element%20failure%20trace.png)
 ---
 
 # Timeout Category 1 – Test Timeout
@@ -390,7 +390,7 @@ Error: page.waitForTimeout: Test timeout of 3000ms exceeded.
 Avoid unnecessary delays in tests.
 
 ## Output
-![test](/output/test%20timeout.png)
+![test](/part2_day2/output/test%20timeout.png)
 ---
 
 # Timeout Category 2 – Expect Timeout
@@ -432,7 +432,7 @@ Error: expect(locator).toBeVisible() failed
 Use realistic assertion timeouts.
 
 ## Output
-![expect](/output/expect%20timeout.png)
+![expect](/part2_day2/output/expect%20timeout.png)
 ---
 
 # Timeout Category 3 – Action Timeout
@@ -466,7 +466,7 @@ TimeoutError: page.goto: Timeout 1000ms exceeded.
 Action timeouts often indicate locator or synchronization issues.
 
 ## Output
-![action](/output/action%20timeout.png)
+![action](/part2_day2/output/action%20timeout.png)
 ---
 
 # Timeout Category 4 – Navigation Timeout
@@ -500,7 +500,7 @@ TimeoutError: page.goto: Timeout 1ms exceeded.
 Navigation timeouts should account for realistic page load times.
 
 ## Output
-![navigation](/output/navigation%20timeout.png)
+![navigation](/part2_day2/output/navigation%20timeout.png)
 ---
 
 # Summary
